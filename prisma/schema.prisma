@@ -14,8 +14,7 @@ datasource db {
 model fumos {
   id String @id @default(uuid())
   name String
-  power Int
-
+  power Int?
 }
 
 model users {
