@@ -14,4 +14,13 @@ datasource db {
 model fumos {
   id String @id @default(uuid())
   name String
+  power Int
+
+}
+
+model users {
+  id String @id @default(uuid())
+  createdAt DateTime @default(now())
+  email String @unique
+  username String?
 }
