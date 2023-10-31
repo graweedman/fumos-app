@@ -1,10 +1,13 @@
+import { db } from "@/db"
+import { users } from "@/db/schema"
 
 export default async function Home() {
 
-  return (
-    <main>
-      <h1 className="">Fumo Shrine</h1>
+  const result = await db.select().from(users)
 
+  return (
+    <main >
+      <h1 className="">{JSON.stringify(result)}</h1>
     </main>
   )
 }

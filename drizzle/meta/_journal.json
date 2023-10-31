@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1698659461459,
+      "tag": "0000_orange_bill_hollister",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1698671359017,
+      "tag": "0001_luxuriant_molten_man",
+      "breakpoints": true
+    }
+  ]
+}
